@@ -452,6 +452,10 @@
     --tw-translate-y: 0px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .translate-y-2 {
+    --tw-translate-y: calc(var(--spacing) * 2);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .translate-y-4 {
     --tw-translate-y: calc(var(--spacing) * 4);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -636,6 +640,9 @@
   .border-\[\#CFA670\]\/30 {
     border-color: color-mix(in oklab, #CFA670 30%, transparent);
   }
+  .border-\[\#CFA670\]\/40 {
+    border-color: color-mix(in oklab, #CFA670 40%, transparent);
+  }
   .border-\[\#CFA670\]\/50 {
     border-color: color-mix(in oklab, #CFA670 50%, transparent);
   }
@@ -684,6 +691,9 @@
   .bg-\[\#181411\]\/90 {
     background-color: color-mix(in oklab, #181411 90%, transparent);
   }
+  .bg-\[\#191512\] {
+    background-color: #191512;
+  }
   .bg-\[\#CFA670\] {
     background-color: #CFA670;
   }
@@ -711,10 +721,6 @@
   }
   .from-\[\#12100e\] {
     --tw-gradient-from: #12100e;
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-  .from-\[\#12100e\]\/85 {
-    --tw-gradient-from: color-mix(in oklab, #12100e 85%, transparent);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .from-\[\#12100e\]\/90 {
@@ -1165,6 +1171,10 @@
     will-change: transform;
   }
   @media (hover: hover) {
+    .group-hover\:translate-x-1:is(:where(.group):hover *) {
+      --tw-translate-x: var(--spacing);
+      translate: var(--tw-translate-x) var(--tw-translate-y);
+    }
     .group-hover\:-translate-y-1:is(:where(.group):hover *) {
       --tw-translate-y: calc(var(--spacing) * -1);
       translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -1183,6 +1193,12 @@
       --tw-scale-x: 110%;
       --tw-scale-y: 110%;
       --tw-scale-z: 110%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
+    .group-hover\:scale-115:is(:where(.group):hover *) {
+      --tw-scale-x: 115%;
+      --tw-scale-y: 115%;
+      --tw-scale-z: 115%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
     .group-hover\:border-\[\#CFA670\]:is(:where(.group):hover *) {
@@ -1275,9 +1291,6 @@
     .hover\:text-\[\#CFA670\]:hover {
       color: #CFA670;
     }
-    .hover\:text-\[\#deb47b\]:hover {
-      color: #deb47b;
-    }
     .hover\:text-\[\#e4be88\]:hover {
       color: #e4be88;
     }
@@ -1343,6 +1356,9 @@
     }
     .sm\:p-4 {
       padding: calc(var(--spacing) * 4);
+    }
+    .sm\:p-5 {
+      padding: calc(var(--spacing) * 5);
     }
     .sm\:p-10 {
       padding: calc(var(--spacing) * 10);
@@ -1505,9 +1521,6 @@
     }
     .lg\:py-32 {
       padding-block: calc(var(--spacing) * 32);
-    }
-    .lg\:pl-6 {
-      padding-left: calc(var(--spacing) * 6);
     }
     .lg\:pl-8 {
       padding-left: calc(var(--spacing) * 8);
