@@ -25,7 +25,7 @@ const galleryImages = [
 
 export default function SocialGallery() {
   return (
-    <section className="relative w-full py-20 lg:py-28 bg-[#14120f] overflow-hidden">
+    <section className="relative w-full py-20 lg:py-28 bg-[#141210] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: 4-Photo Showcase Grid (65% width) */}
@@ -41,8 +41,8 @@ export default function SocialGallery() {
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-out"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#12100e]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                  <span className="text-xs font-medium text-[#f5f2ec] tracking-wide">
+                <div className="absolute inset-0 bg-gradient-to-t from-[#12100e]/85 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                  <span className="text-xs font-medium text-[#f5f2ec] tracking-wide font-lato">
                     {img.caption}
                   </span>
                 </div>
@@ -52,28 +52,28 @@ export default function SocialGallery() {
 
           {/* Right Column: Checkout Social Media (35% width) */}
           <div className="lg:col-span-5 flex flex-col items-center lg:items-start text-center lg:text-left lg:pl-6">
-            <span className="font-script text-5xl sm:text-6xl text-[#c89255] tracking-wide mb-1">
+            <span className="font-script text-7xl sm:text-8xl text-[#CFA670] tracking-normal mb-0">
               Checkout
             </span>
 
-            <h2 className="font-slab text-3xl sm:text-4xl md:text-5xl font-extrabold uppercase tracking-[0.16em] text-[#faf8f5] mb-4">
+            <h2 className="font-lato text-4xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight text-[#faf8f5] -mt-2 mb-4">
               Social Media
             </h2>
 
             <div className="mb-6">
-              <LeafIcon className="w-6 h-8 text-[#c89255] opacity-90" />
+              <LeafIcon className="w-7 h-9 text-[#CFA670] opacity-95" />
             </div>
 
-            <p className="font-body text-[#b8afa3] text-sm sm:text-base leading-relaxed max-w-md mb-6">
+            <p className="font-lato text-[#b8afa3] text-sm sm:text-base leading-relaxed max-w-md mb-6">
               Follow our daily coffee rituals, seasonal secret menus, barista tips,
-              and community gatherings across our Brooklyn and Manhattan locations.
+              and community moments across our Brooklyn and Manhattan locations.
             </p>
 
             <a
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2.5 text-base sm:text-lg font-semibold tracking-wider text-[#c89255] hover:text-[#dca368] transition-colors group"
+              className="inline-flex items-center gap-2.5 text-base sm:text-lg font-semibold tracking-wider text-[#CFA670] hover:text-[#deb47b] transition-colors group font-lato"
             >
               <svg
                 className="w-5 h-5 fill-current transform group-hover:scale-110 transition-transform"

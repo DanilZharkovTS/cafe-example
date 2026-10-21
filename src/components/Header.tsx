@@ -9,18 +9,18 @@ export default function Header() {
   return (
     <header className="w-full relative z-50">
       {/* Top Bar */}
-      <div className="bg-[#171412] border-b border-[#2a241f] text-xs text-[#a89f91] py-2 px-4 md:px-8">
+      <div className="bg-[#171412] border-b border-[#28211b] text-xs text-[#a3998c] py-2 px-4 md:px-8">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
           {/* Contact Details */}
-          <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6">
+          <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6 font-lato">
             <a
               href="https://maps.google.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 hover:text-[#c89255] transition-colors"
+              className="flex items-center gap-1.5 hover:text-[#CFA670] transition-colors"
             >
               <svg
-                className="w-3.5 h-3.5 text-[#c89255]"
+                className="w-3.5 h-3.5 text-[#CFA670]"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 aria-hidden="true"
@@ -36,10 +36,10 @@ export default function Header() {
 
             <a
               href="tel:6315365209"
-              className="flex items-center gap-1.5 hover:text-[#c89255] transition-colors"
+              className="flex items-center gap-1.5 hover:text-[#CFA670] transition-colors"
             >
               <svg
-                className="w-3.5 h-3.5 text-[#c89255]"
+                className="w-3.5 h-3.5 text-[#CFA670]"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 aria-hidden="true"
@@ -51,7 +51,7 @@ export default function Header() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex items-center gap-4 text-[#c89255]">
+          <div className="flex items-center gap-4 text-[#CFA670]">
             <a
               href="https://facebook.com"
               target="_blank"
@@ -101,16 +101,16 @@ export default function Header() {
       </div>
 
       {/* Main Navigation Bar */}
-      <nav className="bg-[#12100e]/95 backdrop-blur-md border-b border-[#25201b] sticky top-0 px-4 md:px-8 py-4 transition-all">
+      <nav className="bg-[#141210]/95 backdrop-blur-md border-b border-[#25201b] sticky top-0 px-4 md:px-8 py-4 transition-all">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Brand Logo */}
           <Link href="/" className="group flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full border border-[#c89255]/40 flex items-center justify-center bg-[#1c1815] shadow-inner group-hover:border-[#c89255] transition-colors">
+            <div className="w-10 h-10 rounded-full border border-[#CFA670]/50 flex items-center justify-center bg-[#1c1815] shadow-inner group-hover:border-[#CFA670] transition-colors">
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                className="w-5 h-5 text-[#c89255]"
+                className="w-5 h-5 text-[#CFA670]"
                 strokeWidth="1.75"
               >
                 <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
@@ -121,38 +121,38 @@ export default function Header() {
               </svg>
             </div>
             <div className="flex flex-col">
-              <span className="font-slab text-lg md:text-xl font-bold tracking-[0.2em] uppercase text-[#f7f4ee] group-hover:text-[#c89255] transition-colors">
+              <span className="font-lato text-lg md:text-xl font-bold tracking-[0.2em] uppercase text-[#f7f4ee] group-hover:text-[#CFA670] transition-colors">
                 Amber Mug
               </span>
-              <span className="text-[9px] tracking-[0.3em] uppercase text-[#a89f91] -mt-1 font-medium">
+              <span className="text-[9px] tracking-[0.3em] uppercase text-[#a3998c] -mt-1 font-medium font-lato">
                 Coffee Roasters
               </span>
             </div>
           </Link>
 
           {/* Desktop Nav Links */}
-          <div className="hidden lg:flex items-center gap-8 text-sm font-medium tracking-wider uppercase text-[#d6cfc5]">
+          <div className="hidden lg:flex items-center gap-8 text-sm font-medium tracking-wider uppercase text-[#d6cfc5] font-lato">
             <Link
               href="/"
-              className="text-[#c89255] hover:text-[#dca368] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#c89255]"
+              className="text-[#CFA670] hover:text-[#e4be88] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#CFA670]"
             >
               Home
             </Link>
             <Link
               href="#menu"
-              className="hover:text-[#c89255] transition-colors py-1"
+              className="hover:text-[#CFA670] transition-colors py-1"
             >
               Menu
             </Link>
             <Link
               href="#gift-cards"
-              className="hover:text-[#c89255] transition-colors py-1"
+              className="hover:text-[#CFA670] transition-colors py-1"
             >
               Gift Card
             </Link>
             <Link
               href="#contact"
-              className="hover:text-[#c89255] transition-colors py-1"
+              className="hover:text-[#CFA670] transition-colors py-1"
             >
               Contact Us
             </Link>
@@ -162,7 +162,7 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <Link
               href="#private-events"
-              className="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full border border-[#c89255] text-xs font-semibold uppercase tracking-widest text-[#c89255] hover:bg-[#c89255] hover:text-[#12100e] transition-all duration-300 shadow-sm"
+              className="hidden sm:inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-[#CFA670] text-xs font-bold uppercase tracking-widest text-[#CFA670] hover:bg-[#CFA670] hover:text-[#12100e] transition-all duration-300 font-lato shadow-sm"
             >
               Private Event
             </Link>
@@ -171,7 +171,7 @@ export default function Header() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-[#d6cfc5] hover:text-[#c89255] transition-colors focus:outline-none"
+              className="lg:hidden p-2 text-[#d6cfc5] hover:text-[#CFA670] transition-colors focus:outline-none"
               aria-label="Toggle navigation menu"
             >
               {mobileMenuOpen ? (
@@ -189,39 +189,39 @@ export default function Header() {
 
         {/* Mobile Dropdown Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden mt-4 pt-4 border-t border-[#25201b] pb-3 flex flex-col gap-4 text-center">
+          <div className="lg:hidden mt-4 pt-4 border-t border-[#25201b] pb-3 flex flex-col gap-4 text-center font-lato">
             <Link
               href="/"
               onClick={() => setMobileMenuOpen(false)}
-              className="text-[#c89255] font-semibold text-sm tracking-widest uppercase py-1"
+              className="text-[#CFA670] font-semibold text-sm tracking-widest uppercase py-1"
             >
               Home
             </Link>
             <Link
               href="#menu"
               onClick={() => setMobileMenuOpen(false)}
-              className="text-[#d6cfc5] hover:text-[#c89255] text-sm tracking-widest uppercase py-1"
+              className="text-[#d6cfc5] hover:text-[#CFA670] text-sm tracking-widest uppercase py-1"
             >
               Menu
             </Link>
             <Link
               href="#gift-cards"
               onClick={() => setMobileMenuOpen(false)}
-              className="text-[#d6cfc5] hover:text-[#c89255] text-sm tracking-widest uppercase py-1"
+              className="text-[#d6cfc5] hover:text-[#CFA670] text-sm tracking-widest uppercase py-1"
             >
               Gift Card
             </Link>
             <Link
               href="#contact"
               onClick={() => setMobileMenuOpen(false)}
-              className="text-[#d6cfc5] hover:text-[#c89255] text-sm tracking-widest uppercase py-1"
+              className="text-[#d6cfc5] hover:text-[#CFA670] text-sm tracking-widest uppercase py-1"
             >
               Contact Us
             </Link>
             <Link
               href="#private-events"
               onClick={() => setMobileMenuOpen(false)}
-              className="inline-block mt-2 mx-auto px-6 py-2.5 rounded-full border border-[#c89255] text-xs font-semibold uppercase tracking-widest text-[#c89255] hover:bg-[#c89255] hover:text-[#12100e] transition-colors"
+              className="inline-block mt-2 mx-auto px-6 py-2.5 rounded-full border border-[#CFA670] text-xs font-bold uppercase tracking-widest text-[#CFA670] hover:bg-[#CFA670] hover:text-[#12100e] transition-colors"
             >
               Private Event
             </Link>

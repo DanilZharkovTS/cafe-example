@@ -1,8 +1,8 @@
 export default function FeatureExperience() {
   return (
-    <section className="relative w-full py-32 sm:py-40 md:py-48 flex items-center justify-center overflow-hidden bg-[#12100e]">
+    <section className="relative w-full py-36 sm:py-44 md:py-52 flex items-center justify-center overflow-hidden bg-[#12100e]">
       {/* Top Split Shape Divider */}
-      <div className="absolute top-0 left-0 right-0 w-full overflow-hidden leading-none z-20 text-[#14120f]">
+      <div className="absolute top-0 left-0 right-0 w-full overflow-hidden leading-none z-20 text-[#141210]">
         <svg
           viewBox="0 0 1000 20"
           preserveAspectRatio="none"
@@ -13,30 +13,27 @@ export default function FeatureExperience() {
         </svg>
       </div>
 
-      {/* Parallax / Fixed Background with Dark Amber Overlay */}
+      {/* Parallax / Background with Dark Amber Tint */}
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=2000&q=85"
-          alt="Freshly Roasted Coffee Beans"
-          className="w-full h-full object-cover object-center fixed-bg"
+          alt="Freshly Roasted Amber Coffee Beans"
+          className="w-full h-full object-cover object-center"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-[#12100e]/75 backdrop-contrast-125" />
+        <div className="absolute inset-0 bg-[#12100e]/80" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#12100e] via-transparent to-[#12100e]/90" />
       </div>
 
       {/* Central Animated Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center flex flex-col items-center">
-        <span className="font-script text-6xl sm:text-7xl md:text-8xl text-[#c89255] tracking-wide transform -rotate-2 drop-shadow-lg">
+        <span className="font-script text-7xl sm:text-8xl md:text-9xl text-[#CFA670] tracking-normal drop-shadow-lg">
           Delightful
         </span>
-        <h2 className="font-slab text-4xl sm:text-6xl md:text-7xl font-black uppercase tracking-[0.25em] text-[#faf8f5] mt-2 mb-4 drop-shadow-xl">
+        <h2 className="font-lato text-5xl sm:text-7xl md:text-8xl font-black uppercase tracking-[0.18em] text-[#faf8f5] -mt-3 mb-4 drop-shadow-xl">
           Experience
         </h2>
-        <div className="w-16 h-0.5 bg-[#c89255]/70 rounded-full my-3" />
-        <p className="font-sans text-xs sm:text-sm md:text-base uppercase tracking-[0.3em] text-[#d6cfc5] font-light max-w-lg">
-          Roasted with Passion • Brewed to Perfection
-        </p>
+        <div className="w-20 h-0.5 bg-[#CFA670]/80 rounded-full my-2" />
       </div>
 
       {/* Bottom Split Shape Divider */}

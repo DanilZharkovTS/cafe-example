@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/compile-css.js",
     "dev": "next dev",
+    "prebuild": "node scripts/compile-css.js",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

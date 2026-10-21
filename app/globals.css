@@ -1,30 +1,39 @@
-@import "tailwindcss";
+@import "./compiled.css";
 
-@layer base {
-  :root {
-    --font-script: "Kristi", cursive;
-    --font-slab: "Roboto Slab", "Playfair Display", Georgia, serif;
-    --font-sans: "Plus Jakarta Sans", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  }
-
-  body {
-    font-family: var(--font-sans);
-    background-color: #12100e;
-    color: #f3f0ea;
-    overflow-x: hidden;
-  }
+/* Base Body Styles */
+body {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #141210;
+  color: #ded7cc;
+  overflow-x: hidden;
 }
 
+/* Authentic Typography */
 .font-script {
-  font-family: var(--font-script), "Brush Script MT", cursive;
+  font-family: "Kristi", cursive, sans-serif !important;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif !important;
 }
 
 .font-slab {
-  font-family: var(--font-slab), Georgia, serif;
+  font-family: "Roboto Slab", Georgia, serif !important;
 }
 
-.font-body {
-  font-family: var(--font-sans);
+/* Copper / Amber accent utilities */
+.text-copper {
+  color: #CFA670;
+}
+
+.bg-copper {
+  background-color: #CFA670;
+}
+
+.border-copper {
+  border-color: #CFA670;
 }
 
 /* Custom scrollbar */
@@ -32,12 +41,12 @@
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #151311;
+  background: #141210;
 }
 ::-webkit-scrollbar-thumb {
-  background: #3c342c;
+  background: #362e26;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #c89255;
+  background: #CFA670;
 }
