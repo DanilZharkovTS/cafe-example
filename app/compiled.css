@@ -414,9 +414,6 @@
   .w-11 {
     width: calc(var(--spacing) * 11);
   }
-  .w-20 {
-    width: calc(var(--spacing) * 20);
-  }
   .w-24 {
     width: calc(var(--spacing) * 24);
   }
@@ -1359,9 +1356,6 @@
     .sm\:py-28 {
       padding-block: calc(var(--spacing) * 28);
     }
-    .sm\:py-44 {
-      padding-block: calc(var(--spacing) * 44);
-    }
     .sm\:py-48 {
       padding-block: calc(var(--spacing) * 48);
     }
@@ -1432,9 +1426,6 @@
     }
     .md\:px-8 {
       padding-inline: calc(var(--spacing) * 8);
-    }
-    .md\:py-52 {
-      padding-block: calc(var(--spacing) * 52);
     }
     .md\:py-56 {
       padding-block: calc(var(--spacing) * 56);
