@@ -231,6 +231,9 @@
   .inset-0 {
     inset: 0px;
   }
+  .-top-\[12\%\] {
+    top: calc(12% * -1);
+  }
   .top-0 {
     top: 0px;
   }
@@ -369,6 +372,9 @@
   .h-\[1px\] {
     height: 1px;
   }
+  .h-\[125\%\] {
+    height: 125%;
+  }
   .h-full {
     height: 100%;
   }
@@ -410,6 +416,9 @@
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
+  }
+  .w-24 {
+    width: calc(var(--spacing) * 24);
   }
   .w-full {
     width: 100%;
@@ -1127,6 +1136,10 @@
   .delay-900 {
     transition-delay: 900ms;
   }
+  .duration-100 {
+    --tw-duration: 100ms;
+    transition-duration: 100ms;
+  }
   .duration-300 {
     --tw-duration: 300ms;
     transition-duration: 300ms;
@@ -1349,6 +1362,9 @@
     .sm\:py-44 {
       padding-block: calc(var(--spacing) * 44);
     }
+    .sm\:py-48 {
+      padding-block: calc(var(--spacing) * 48);
+    }
     .sm\:text-3xl {
       font-size: var(--text-3xl);
       line-height: var(--tw-leading, var(--text-3xl--line-height));
@@ -1419,6 +1435,9 @@
     }
     .md\:py-52 {
       padding-block: calc(var(--spacing) * 52);
+    }
+    .md\:py-56 {
+      padding-block: calc(var(--spacing) * 56);
     }
     .md\:text-left {
       text-align: left;
