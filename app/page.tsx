@@ -1,6 +1,7 @@
 import Header from "@/src/components/Header";
 import Hero from "@/src/components/Hero";
 import DiscoverMenu from "@/src/components/DiscoverMenu";
+import FeatureExperience from "@/src/components/FeatureExperience";
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <Header />
       <Hero />
       <DiscoverMenu />
+      <FeatureExperience />
     </main>
   );
 }
