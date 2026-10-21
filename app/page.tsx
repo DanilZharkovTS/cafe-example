@@ -2,6 +2,7 @@ import Header from "@/src/components/Header";
 import Hero from "@/src/components/Hero";
 import DiscoverMenu from "@/src/components/DiscoverMenu";
 import FeatureExperience from "@/src/components/FeatureExperience";
+import FeatureDelicious from "@/src/components/FeatureDelicious";
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Hero />
       <DiscoverMenu />
       <FeatureExperience />
+      <FeatureDelicious />
     </main>
   );
 }
