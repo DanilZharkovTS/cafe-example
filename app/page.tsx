@@ -3,6 +3,7 @@ import Hero from "@/src/components/Hero";
 import DiscoverMenu from "@/src/components/DiscoverMenu";
 import FeatureExperience from "@/src/components/FeatureExperience";
 import FeatureDelicious from "@/src/components/FeatureDelicious";
+import SocialGallery from "@/src/components/SocialGallery";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <DiscoverMenu />
       <FeatureExperience />
       <FeatureDelicious />
+      <SocialGallery />
     </main>
   );
 }
