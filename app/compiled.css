@@ -444,12 +444,20 @@
     --tw-translate-x: calc(var(--spacing) * 10);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .-translate-y-1 {
+    --tw-translate-y: calc(var(--spacing) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .-translate-y-10 {
     --tw-translate-y: calc(var(--spacing) * -10);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .translate-y-0 {
     --tw-translate-y: 0px;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-1 {
+    --tw-translate-y: var(--spacing);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .translate-y-2 {
@@ -699,6 +707,9 @@
   }
   .bg-\[\#CFA670\]\/80 {
     background-color: color-mix(in oklab, #CFA670 80%, transparent);
+  }
+  .bg-\[\#deb47b\] {
+    background-color: #deb47b;
   }
   .bg-\[\#e4be88\] {
     background-color: #e4be88;
@@ -1091,6 +1102,11 @@
     --tw-drop-shadow: drop-shadow(var(--drop-shadow-xl));
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
+  .backdrop-blur-\[2px\] {
+    --tw-backdrop-blur: blur(2px);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+    backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+  }
   .backdrop-blur-md {
     --tw-backdrop-blur: blur(var(--blur-md));
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
@@ -1201,6 +1217,9 @@
       --tw-scale-z: 115%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
+    .group-hover\:rotate-12:is(:where(.group):hover *) {
+      rotate: 12deg;
+    }
     .group-hover\:border-\[\#CFA670\]:is(:where(.group):hover *) {
       border-color: #CFA670;
     }
@@ -1270,8 +1289,14 @@
     .hover\:border-\[\#CFA670\]:hover {
       border-color: #CFA670;
     }
+    .hover\:border-\[\#CFA670\]\/30:hover {
+      border-color: color-mix(in oklab, #CFA670 30%, transparent);
+    }
     .hover\:border-\[\#CFA670\]\/40:hover {
       border-color: color-mix(in oklab, #CFA670 40%, transparent);
+    }
+    .hover\:border-\[\#CFA670\]\/50:hover {
+      border-color: color-mix(in oklab, #CFA670 50%, transparent);
     }
     .hover\:border-\[\#e4be88\]:hover {
       border-color: #e4be88;
@@ -1281,9 +1306,6 @@
     }
     .hover\:bg-\[\#CFA670\]\/10:hover {
       background-color: color-mix(in oklab, #CFA670 10%, transparent);
-    }
-    .hover\:bg-\[\#deb47b\]:hover {
-      background-color: #deb47b;
     }
     .hover\:text-\[\#12100e\]:hover {
       color: #12100e;
@@ -1296,6 +1318,14 @@
     }
     .hover\:text-white:hover {
       color: var(--color-white);
+    }
+    .hover\:shadow-\[\#CFA670\]\/20:hover {
+      --tw-shadow-color: color-mix(in srgb, #CFA670 20%, transparent);
+    }
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:shadow-\[\#CFA670\]\/20:hover {
+        --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, #CFA670 20%, transparent) var(--tw-shadow-alpha), transparent);
+      }
     }
     .hover\:shadow-\[\#CFA670\]\/25:hover {
       --tw-shadow-color: color-mix(in srgb, #CFA670 25%, transparent);
@@ -1515,9 +1545,6 @@
     }
     .lg\:px-8 {
       padding-inline: calc(var(--spacing) * 8);
-    }
-    .lg\:py-28 {
-      padding-block: calc(var(--spacing) * 28);
     }
     .lg\:py-32 {
       padding-block: calc(var(--spacing) * 32);
