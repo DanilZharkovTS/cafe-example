@@ -4,6 +4,7 @@ import DiscoverMenu from "@/src/components/DiscoverMenu";
 import FeatureExperience from "@/src/components/FeatureExperience";
 import FeatureDelicious from "@/src/components/FeatureDelicious";
 import SocialGallery from "@/src/components/SocialGallery";
+import PrivateEventsAndFeed from "@/src/components/PrivateEventsAndFeed";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <FeatureExperience />
       <FeatureDelicious />
       <SocialGallery />
+      <PrivateEventsAndFeed />
     </main>
   );
 }
