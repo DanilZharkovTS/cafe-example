@@ -32,7 +32,7 @@ const sandwichItems: MenuItem[] = [
   {
     title: "Organic Egg & Cheddar Brioche",
     price: "$10.50",
-    desc: "Locally sourced organic free-range eggs, sharp New York cheddar cheese, lightly sauteed baby spinach, and smoky chipotle aioli on a toasted seeded sesame bun.",
+    desc: "Locally sourced organic free-range eggs, aged cheddar & cured Canarian cheese, lightly sauteed baby spinach, and smoky chipotle aioli on a toasted seeded sesame bun.",
     image:
       "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
     tags: ["All-Day Breakfast", "Organic"],

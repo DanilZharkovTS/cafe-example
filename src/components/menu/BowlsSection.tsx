@@ -8,7 +8,7 @@ const bowlItems: MenuItem[] = [
   {
     title: "Big Berry Greek Yogurt Bowl",
     price: "$12.00",
-    desc: "Creamy whole-milk Greek yogurt, house-made roasted nut granola, toasted coconut flakes, pumpkin and chia seeds, topped with fresh seasonal berries and pure New York wildflower honey.",
+    desc: "Creamy whole-milk Greek yogurt, house-made roasted nut granola, toasted coconut flakes, pumpkin and chia seeds, topped with fresh seasonal berries and pure Canary wildflower honey.",
     image:
       "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80",
     tags: ["High Protein", "Vegetarian"],
@@ -24,7 +24,7 @@ const bowlItems: MenuItem[] = [
   {
     title: "Warm Spiced Rolled Oatmeal",
     price: "$9.50",
-    desc: "Steel-cut and rolled oats slow-simmered with almond milk, dried wild berries, sun-ripened apricots, roasted pumpkin seeds, fresh fruits, Ceylon cinnamon, and pure Grade A NY State maple syrup.",
+    desc: "Steel-cut and rolled oats slow-simmered with almond milk, dried wild berries, sun-ripened apricots, roasted pumpkin seeds, fresh fruits, Ceylon cinnamon, and pure organic dark amber maple syrup.",
     image:
       "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=800&q=80",
     tags: ["Warm & Cozy", "Vegan"],

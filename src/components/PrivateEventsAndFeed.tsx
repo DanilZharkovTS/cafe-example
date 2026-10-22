@@ -7,7 +7,7 @@ const instaPosts = [
   {
     image:
       "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
-    caption: "Bring your bestie to lunch 💕 #ambermugcoffee #nyccafe",
+    caption: "Bring your bestie to lunch 💕 #ambermugcoffee #tenerifecafe",
     likes: 342,
     comments: 18,
   },
@@ -21,7 +21,7 @@ const instaPosts = [
   {
     image:
       "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80",
-    caption: "Your coffee emergency has been handled. 🆘☕️ #brooklynroast",
+    caption: "Your coffee emergency has been handled. 🆘☕️ #teneriferoast",
     likes: 428,
     comments: 14,
   },

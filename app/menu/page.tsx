@@ -12,7 +12,7 @@ import PastriesSection from "@/src/components/menu/PastriesSection";
 export const metadata: Metadata = {
   title: "Menu | Amber Mug Coffee - Specialty Brews, Kitchen & Bakery",
   description:
-    "Explore our complete handcrafted coffee menu, organic sandwiches, artisan wraps, fresh smoothies, healthy bowls, and bakery pastries in New York.",
+    "Explore our complete handcrafted coffee menu, organic sandwiches, artisan wraps, fresh smoothies, healthy bowls, and bakery pastries across our Tenerife cafes.",
 };
 
 export default function MenuPage() {
