@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import LeafIcon from "./LeafIcon";
 import AnimateOnScroll from "./AnimateOnScroll";
 
@@ -85,15 +86,15 @@ export default function DiscoverMenu() {
 
             <AnimateOnScroll animation="fade-up" delay={700} duration={800} className="w-full">
               <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center lg:justify-start font-lato">
-                <a
-                  href="#full-menu"
+                <Link
+                  href="/menu"
                   className="group relative overflow-hidden w-full sm:w-auto text-center px-10 py-3.5 rounded-full border border-[#CFA670] text-sm font-bold uppercase tracking-widest text-[#CFA670] transition-all duration-300 shadow-md hover:shadow-[#CFA670]/25 hover:-translate-y-0.5 active:translate-y-0"
                 >
                   <span className="relative z-10 group-hover:text-[#12100e] transition-colors duration-300">
                     View Menu
                   </span>
                   <div className="absolute inset-0 bg-[#CFA670] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
-                </a>
+                </Link>
                 <span className="text-xs text-[#8f8577] italic tracking-wide">
                   * Served daily 7 AM – 6 PM
                 </span>

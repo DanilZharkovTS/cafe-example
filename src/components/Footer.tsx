@@ -94,7 +94,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#menu" className="hover:text-[#CFA670] transition-colors inline-block hover:translate-x-1 duration-200">
+                  <Link href="/menu" className="hover:text-[#CFA670] transition-colors inline-block hover:translate-x-1 duration-200">
                     Food & Beverage Menus
                   </Link>
                 </li>
