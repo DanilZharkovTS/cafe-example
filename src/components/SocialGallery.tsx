@@ -78,7 +78,7 @@ export default function SocialGallery() {
             <AnimateOnScroll animation="fade-up" delay={550} duration={800}>
               <p className="font-lato text-[#b8afa3] text-sm sm:text-base leading-relaxed max-w-md mb-8">
                 Follow our daily coffee rituals, seasonal secret menus, barista tips,
-                and community moments across our Brooklyn and Manhattan locations.
+                and community moments across our Santa Cruz, La Laguna, and Costa Adeje cafes in Tenerife.
               </p>
             </AnimateOnScroll>
 

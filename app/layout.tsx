@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Amber Mug Coffee | Handcrafted Specialty Brews & Organic Kitchen",
+  title: "Amber Mug Coffee | Handcrafted Specialty Brews & Artisan Kitchen - Tenerife",
   description:
-    "Specialty fine coffee, organic locally sourced kitchen dishes, artisan pastries, and private event hosting in New York.",
+    "Specialty fine coffee, organic locally sourced kitchen dishes, artisan pastries, and private event hosting across our cafes in Tenerife (Canary Islands).",
 };
 
 export default function RootLayout({

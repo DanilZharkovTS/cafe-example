@@ -75,9 +75,9 @@ export default function PrivateEventsAndFeed() {
 
                 <p className="font-lato text-[#b8afa3] text-sm sm:text-base leading-relaxed mb-6">
                   Host your next celebration, team offsite, bridal shower, brand
-                  launch, or intimate reception in our beautifully styled Brooklyn
-                  and Manhattan spaces. Custom espresso bar packages and artisan
-                  catering available.
+                  launch, or intimate reception in our beautifully styled Santa Cruz,
+                  La Laguna, or Costa Adeje spaces in Tenerife. Custom espresso bar
+                  packages and artisan catering available.
                 </p>
 
                 {/* Capacity Badges with subtle hover lift */}
