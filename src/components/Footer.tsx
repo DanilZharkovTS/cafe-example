@@ -126,10 +126,10 @@ export default function Footer() {
               <ul className="space-y-3 text-sm">
                 <li>
                   <a
-                    href="tel:6315365209"
+                    href="tel:+34922536209"
                     className="hover:text-[#CFA670] transition-colors font-semibold text-[#ded7cc] inline-block hover:translate-x-1 duration-200"
                   >
-                    (631) 536-5209
+                    +34 922 536 209
                   </a>
                 </li>
                 <li>
@@ -144,7 +144,7 @@ export default function Footer() {
                   <span className="text-[#a3998c]">ambermugcoffee.com</span>
                 </li>
                 <li className="pt-2 text-xs text-[#8f8577]">
-                  Open Daily: 7:00 AM – 7:00 PM EST
+                  Open Daily: 07:30 – 20:30 WET (Canary Time)
                 </li>
               </ul>
             </div>
@@ -154,28 +154,28 @@ export default function Footer() {
           <AnimateOnScroll animation="fade-up" delay={450} duration={800}>
             <div className="flex flex-col items-center md:items-start text-center md:text-left">
               <h4 className="font-lato text-base sm:text-lg font-bold uppercase tracking-[0.2em] text-[#faf8f5] mb-6">
-                Locations
+                Tenerife Locations
               </h4>
               <div className="space-y-4 text-sm">
                 <div className="group">
                   <p className="font-bold text-[#ded7cc] text-xs uppercase tracking-wider text-[#CFA670] group-hover:text-[#deb47b] transition-colors">
-                    Williamsburg, Brooklyn
+                    Santa Cruz de Tenerife
                   </p>
-                  <p className="text-[#a3998c]">131 N 4th St, Brooklyn, NY 11249</p>
+                  <p className="text-[#a3998c]">Calle del Castillo 42, 38003 Santa Cruz</p>
                 </div>
 
                 <div className="group">
                   <p className="font-bold text-[#ded7cc] text-xs uppercase tracking-wider text-[#CFA670] group-hover:text-[#deb47b] transition-colors">
-                    NoMad / Midtown
+                    La Laguna (Casco Histórico)
                   </p>
-                  <p className="text-[#a3998c]">38 W 30th St, New York, NY 10001</p>
+                  <p className="text-[#a3998c]">Calle San Agustín 18, 38201 La Laguna</p>
                 </div>
 
                 <div className="group">
                   <p className="font-bold text-[#ded7cc] text-xs uppercase tracking-wider text-[#CFA670] group-hover:text-[#deb47b] transition-colors">
-                    Greenpoint
+                    Costa Adeje (South Coast)
                   </p>
-                  <p className="text-[#a3998c]">687 Manhattan Ave, Greenpoint, NY 11222</p>
+                  <p className="text-[#a3998c]">Paseo Marítimo El Duque 7, 38660 Adeje</p>
                 </div>
               </div>
             </div>

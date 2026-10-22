@@ -14,7 +14,7 @@ export default function Header() {
           {/* Contact Details */}
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6 font-lato">
             <a
-              href="https://maps.google.com"
+              href="https://maps.google.com/?q=Calle+del+Castillo+42,+38003+Santa+Cruz+de+Tenerife"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 hover:text-[#CFA670] transition-colors"
@@ -31,11 +31,11 @@ export default function Header() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>131 N 4th St, Brooklyn, NY 11249</span>
+              <span>Calle del Castillo 42, Santa Cruz de Tenerife</span>
             </a>
 
             <a
-              href="tel:6315365209"
+              href="tel:+34922536209"
               className="flex items-center gap-1.5 hover:text-[#CFA670] transition-colors"
             >
               <svg
@@ -46,7 +46,7 @@ export default function Header() {
               >
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z" />
               </svg>
-              <span>(631) 536-5209</span>
+              <span>+34 922 536 209</span>
             </a>
           </div>
 
