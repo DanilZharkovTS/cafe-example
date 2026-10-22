@@ -6,7 +6,7 @@ const galleryPhotos = [
   {
     url: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80",
     alt: "Amber Mug Cafe Warm Seating",
-    caption: "Williamsburg Main Room",
+    caption: "Santa Cruz Main Room",
   },
   {
     url: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
@@ -15,17 +15,17 @@ const galleryPhotos = [
   },
   {
     url: "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
-    alt: "Garden Backyard Patio Seating",
-    caption: "Outdoor Garden Patio",
+    alt: "Costa Adeje Ocean Terrace Patio",
+    caption: "Ocean Terrace Patio",
   },
   {
     url: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80",
-    alt: "Greenpoint Cafe Cozy Interior",
-    caption: "Greenpoint Sunlit Corner",
+    alt: "La Laguna Historic Patio",
+    caption: "La Laguna Historic Patio",
   },
   {
     url: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80",
-    alt: "Craft Latte Art",
+    alt: "Craft Canarian Latte & Barraquito",
     caption: "Handcrafted Micro-Roasts",
   },
 ];

@@ -8,9 +8,9 @@ import ContactForm from "@/src/components/contact/ContactForm";
 import ContactMap from "@/src/components/contact/ContactMap";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Amber Mug Coffee - Brooklyn & Manhattan Locations",
+  title: "Contact Us | Amber Mug Coffee - Tenerife Locations",
   description:
-    "Get in touch with Amber Mug Coffee. Find our opening hours, cafe addresses, phone numbers, and location details in Williamsburg, Midtown, and Greenpoint.",
+    "Get in touch with Amber Mug Coffee. Find our opening hours, cafe addresses, phone numbers, and location details in Santa Cruz, San Cristóbal de La Laguna, and Costa Adeje, Tenerife.",
 };
 
 export default function ContactPage() {

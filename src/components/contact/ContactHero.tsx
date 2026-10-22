@@ -67,7 +67,7 @@ export default function ContactHero() {
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
-          Williamsburg • NoMad / Midtown • Greenpoint
+          Santa Cruz • San Cristóbal de La Laguna • Costa Adeje
         </p>
       </div>
     </section>

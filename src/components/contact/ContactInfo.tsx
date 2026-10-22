@@ -5,37 +5,37 @@ import LeafIcon from "../LeafIcon";
 
 const locationsData = [
   {
-    name: "Williamsburg Location",
-    neighborhood: "Brooklyn, NY",
-    address: "131 N 4th St, Brooklyn, NY 11249",
+    name: "Santa Cruz Location",
+    neighborhood: "Santa Cruz de Tenerife",
+    address: "Calle del Castillo 42, 38003 Santa Cruz de Tenerife",
     mapLink:
-      "https://maps.google.com/?q=131+N+4th+St,+Brooklyn,+NY+11249",
-    transit: "L Train to Bedford Ave • 3 min walk",
+      "https://maps.google.com/?q=Calle+del+Castillo+42,+38003+Santa+Cruz+de+Tenerife",
+    transit: "Tranvía Línea 1 • Plaza Weyler / Fundación (2 min walk)",
     hours: [
-      { days: "Mon – Fri", time: "07:00am – 06:30pm" },
-      { days: "Sat – Sun", time: "07:30am – 07:00pm" },
+      { days: "Mon – Fri", time: "07:30am – 07:30pm" },
+      { days: "Sat – Sun", time: "08:00am – 08:00pm" },
     ],
   },
   {
-    name: "Manhattan Location",
-    neighborhood: "NoMad / Midtown, NYC",
-    address: "38 W 30th St, New York, NY 10001",
+    name: "La Laguna Location",
+    neighborhood: "San Cristóbal de La Laguna",
+    address: "Calle San Agustín 18, 38201 San Cristóbal de La Laguna",
     mapLink:
-      "https://maps.google.com/?q=38+W+30th+St,+New+York,+NY+10001",
-    transit: "B, D, F, M, N, Q, R, W to 34th St Herald Sq",
-    hours: [{ days: "All Week", time: "07:00am – 06:45pm" }],
+      "https://maps.google.com/?q=Calle+San+Agust%C3%ADn+18,+38201+San+Crist%C3%B3bal+de+La+Laguna",
+    transit: "Tranvía Línea 1 • La Trinidad (3 min walk) • Casco Histórico",
+    hours: [
+      { days: "Mon – Fri", time: "08:00am – 07:00pm" },
+      { days: "Sat – Sun", time: "08:30am – 07:30pm" },
+    ],
   },
   {
-    name: "Greenpoint Location",
-    neighborhood: "Brooklyn, NY",
-    address: "687 Manhattan Ave, Greenpoint, NY 11222",
+    name: "Costa Adeje Location",
+    neighborhood: "Costa Adeje, South Tenerife",
+    address: "Paseo Marítimo El Duque 7, 38660 Costa Adeje, Tenerife",
     mapLink:
-      "https://maps.google.com/?q=687+Manhattan+Ave,+Greenpoint,+NY+11222",
-    transit: "G Train to Nassau Ave • 2 min walk",
-    hours: [
-      { days: "Mon – Fri", time: "07:00am – 06:00pm" },
-      { days: "Sat – Sun", time: "07:00am – 06:30pm" },
-    ],
+      "https://maps.google.com/?q=Paseo+Maritimo+El+Duque+7,+38660+Costa+Adeje,+Tenerife",
+    transit: "Playa del Duque Promenade • Titsa Bus 467 & 473",
+    hours: [{ days: "All Week", time: "08:00am – 09:00pm" }],
   },
 ];
 
@@ -78,10 +78,10 @@ export default function ContactInfo() {
                         Telephone
                       </span>
                       <a
-                        href="tel:6315365209"
+                        href="tel:+34922536209"
                         className="text-base font-bold text-[#faf8f5] hover:text-[#CFA670] transition-colors"
                       >
-                        (631) 536-5209
+                        +34 922 536 209
                       </a>
                     </div>
                   </div>
