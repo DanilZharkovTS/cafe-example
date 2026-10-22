@@ -151,7 +151,7 @@ export default function Header() {
               Gift Card
             </Link>
             <Link
-              href="/#contact"
+              href="/contact-us"
               className="hover:text-[#CFA670] transition-colors py-1"
             >
               Contact Us
@@ -212,7 +212,7 @@ export default function Header() {
               Gift Card
             </Link>
             <Link
-              href="/#contact"
+              href="/contact-us"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#d6cfc5] hover:text-[#CFA670] text-sm tracking-widest uppercase py-1"
             >
