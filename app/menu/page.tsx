@@ -7,11 +7,12 @@ import SandwichesSection from "@/src/components/menu/SandwichesSection";
 import SmoothiesSection from "@/src/components/menu/SmoothiesSection";
 import MenuDivider from "@/src/components/menu/MenuDivider";
 import BowlsSection from "@/src/components/menu/BowlsSection";
+import PastriesSection from "@/src/components/menu/PastriesSection";
 
 export const metadata: Metadata = {
   title: "Menu | Amber Mug Coffee - Specialty Brews, Kitchen & Bakery",
   description:
-    "Explore our complete handcrafted coffee menu, organic sandwiches, artisan wraps, fresh smoothies, healthy bowls, and bakery pastries.",
+    "Explore our complete handcrafted coffee menu, organic sandwiches, artisan wraps, fresh smoothies, healthy bowls, and bakery pastries in New York.",
 };
 
 export default function MenuPage() {
@@ -24,6 +25,7 @@ export default function MenuPage() {
       <SmoothiesSection />
       <MenuDivider />
       <BowlsSection />
+      <PastriesSection />
       <Footer />
     </main>
   );
