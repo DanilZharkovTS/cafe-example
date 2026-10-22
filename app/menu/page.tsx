@@ -3,6 +3,7 @@ import Header from "@/src/components/Header";
 import Footer from "@/src/components/Footer";
 import MenuHero from "@/src/components/menu/MenuHero";
 import CoffeeSection from "@/src/components/menu/CoffeeSection";
+import SandwichesSection from "@/src/components/menu/SandwichesSection";
 
 export const metadata: Metadata = {
   title: "Menu | Amber Mug Coffee - Specialty Brews, Kitchen & Bakery",
@@ -16,6 +17,7 @@ export default function MenuPage() {
       <Header />
       <MenuHero />
       <CoffeeSection />
+      <SandwichesSection />
       <Footer />
     </main>
   );
