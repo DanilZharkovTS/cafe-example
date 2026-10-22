@@ -4,6 +4,7 @@ import Footer from "@/src/components/Footer";
 import ContactHero from "@/src/components/contact/ContactHero";
 import ContactInfo from "@/src/components/contact/ContactInfo";
 import ContactGallery from "@/src/components/contact/ContactGallery";
+import ContactForm from "@/src/components/contact/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact Us | Amber Mug Coffee - Brooklyn & Manhattan Locations",
@@ -18,6 +19,7 @@ export default function ContactPage() {
       <ContactHero />
       <ContactInfo />
       <ContactGallery />
+      <ContactForm />
       <Footer />
     </main>
   );
