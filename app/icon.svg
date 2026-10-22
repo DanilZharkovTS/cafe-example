@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#241c16"/>
+      <stop offset="55%" stop-color="#14110e"/>
+      <stop offset="100%" stop-color="#090807"/>
+    </radialGradient>
+
+    <!-- Amber Gold Gradients -->
+    <linearGradient id="amberGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEFD8"/>
+      <stop offset="25%" stop-color="#DEB47B"/>
+      <stop offset="60%" stop-color="#CFA670"/>
+      <stop offset="100%" stop-color="#8F6229"/>
+    </linearGradient>
+
+    <linearGradient id="amberLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5E5"/>
+      <stop offset="100%" stop-color="#DEB47B"/>
+    </linearGradient>
+
+    <linearGradient id="amberDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9C6F34"/>
+      <stop offset="100%" stop-color="#543A16"/>
+    </linearGradient>
+
+    <linearGradient id="steamGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#DEB47B" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#CFA670" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#CFA670" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DEB47B" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#CFA670" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#4A3418" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <radialGradient id="innerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CFA670" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#CFA670" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#CFA670" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Base App Icon Container (Squircle) -->
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#bgGrad)"/>
+  <rect x="16" y="16" width="480" height="480" rx="116" stroke="url(#borderGrad)" stroke-width="6"/>
+
+  <!-- Warm Ambient Glow Behind Cup -->
+  <circle cx="236" cy="285" r="150" fill="url(#innerGlow)"/>
+
+  <!-- STEAM WISPS -->
+  <g stroke="url(#steamGrad)" stroke-width="9" stroke-linecap="round" fill="none">
+    <!-- Center Steam -->
+    <path d="M236 185 C220 145 255 125 236 82" />
+    <!-- Left Steam -->
+    <path d="M188 195 C176 160 204 140 190 105" stroke-width="7" opacity="0.8"/>
+    <!-- Right Steam -->
+    <path d="M284 195 C298 160 270 138 286 100" stroke-width="7" opacity="0.8"/>
+  </g>
+
+  <!-- MUG HANDLE -->
+  <path d="M295 240 C365 240 395 270 395 315 C395 365 355 390 285 390"
+        stroke="url(#amberGold)" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M295 240 C365 240 395 270 395 315 C395 365 355 390 285 390"
+        stroke="url(#amberLight)" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.4"/>
+
+  <!-- SAUCER / BASE SHADOW -->
+  <ellipse cx="236" cy="428" rx="160" ry="16" fill="#0A0806" opacity="0.8"/>
+  <ellipse cx="236" cy="424" rx="140" ry="12" fill="url(#amberDark)" opacity="0.4"/>
+
+  <!-- MUG BODY -->
+  <!-- Outer cup shape: tapers gently to base -->
+  <path d="M140 220
+           L160 380
+           C165 410 200 422 236 422
+           C272 422 307 410 312 380
+           L332 220
+           Z"
+        fill="url(#amberGold)" filter="url(#softGlow)"/>
+
+  <!-- Specular Cup Highlight (left rim reflection) -->
+  <path d="M165 235
+           L180 375
+           C183 392 195 400 210 404"
+        stroke="url(#amberLight)" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.55"/>
+
+  <!-- CUP TOP OPENING & LIQUID (Espresso Crema) -->
+  <ellipse cx="236" cy="220" rx="96" ry="26" fill="#201711"/>
+  <ellipse cx="236" cy="220" rx="90" ry="22" fill="#3D291A"/>
+  <!-- Crema swirl -->
+  <ellipse cx="236" cy="222" rx="78" ry="17" fill="url(#amberDark)"/>
+  <ellipse cx="232" cy="223" rx="60" ry="12" fill="#5E3E1C"/>
+  <ellipse cx="228" cy="224" rx="42" ry="8" fill="url(#amberGold)" opacity="0.6"/>
+
+  <!-- EMBOSSED BRAND LEAF EMBLEM ON MUG -->
+  <g transform="translate(236, 320) scale(3.2) translate(-12, -16)">
+    <!-- Leaf base shape -->
+    <path d="M12 2C12 2 13 8 18 10C23 12 23 18 20 22C17 26 13 28 12 30C11 28 7 26 4 22C1 18 1 12 6 10C11 8 12 2 12 2Z"
+          fill="#1F1710" fill-opacity="0.85"/>
+    <path d="M12 2C12 2 13 8 18 10C23 12 23 18 20 22C17 26 13 28 12 30C11 28 7 26 4 22C1 18 1 12 6 10C11 8 12 2 12 2Z"
+          stroke="url(#amberLight)" stroke-width="1.2" fill="none" opacity="0.75"/>
+    <!-- Leaf veins -->
+    <path d="M12 5V27M12 12C14 11 17 11.5 18 13M12 16C10 15 7 15.5 6 17M12 20C14 19 16 19.5 17 21"
+          stroke="url(#amberLight)" stroke-width="1.1" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <!-- TINY STAR / SPARKLE HIGHLIGHT -->
+  <g transform="translate(325, 222) scale(0.9)">
+    <path d="M0 -14 Q0 0 14 0 Q0 0 0 14 Q0 0 -14 0 Q0 0 0 -14 Z" fill="#FFF8EE" opacity="0.85"/>
+  </g>
+</svg>

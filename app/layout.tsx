@@ -1,10 +1,44 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
+export const viewport: Viewport = {
+  themeColor: "#141210",
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ambermugcoffee.com"),
   title: "Amber Mug Coffee | Handcrafted Specialty Brews & Artisan Kitchen - Tenerife",
   description:
     "Specialty fine coffee, organic locally sourced kitchen dishes, artisan pastries, and private event hosting across our cafes in Tenerife (Canary Islands).",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
+  openGraph: {
+    title: "Amber Mug Coffee | Tenerife Specialty Roasters",
+    description:
+      "Specialty fine coffee, organic locally sourced kitchen dishes, artisan pastries, and private event hosting across our cafes in Tenerife (Canary Islands).",
+    siteName: "Amber Mug Coffee",
+    images: [
+      {
+        url: "/icon.png",
+        width: 1024,
+        height: 1024,
+        alt: "Amber Mug Coffee Icon",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
