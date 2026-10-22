@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/src/components/Header";
 import Footer from "@/src/components/Footer";
 import ContactHero from "@/src/components/contact/ContactHero";
+import ContactInfo from "@/src/components/contact/ContactInfo";
 
 export const metadata: Metadata = {
   title: "Contact Us | Amber Mug Coffee - Brooklyn & Manhattan Locations",
@@ -14,6 +15,7 @@ export default function ContactPage() {
     <main className="min-h-screen flex flex-col bg-[#12100e]">
       <Header />
       <ContactHero />
+      <ContactInfo />
       <Footer />
     </main>
   );
