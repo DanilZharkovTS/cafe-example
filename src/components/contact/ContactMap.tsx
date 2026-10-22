@@ -5,32 +5,37 @@ import AnimateOnScroll from "../AnimateOnScroll";
 
 const locationMaps = [
   {
-    id: "williamsburg",
-    title: "Williamsburg, Brooklyn",
-    address: "131 N 4th St, Brooklyn, NY 11249",
-    transit: "L Train at Bedford Ave • 3 min walk",
+    id: "santa-cruz",
+    tabName: "Santa Cruz",
+    title: "Santa Cruz de Tenerife",
+    address: "Calle del Castillo 42, 38003 Santa Cruz de Tenerife",
+    transit: "Tranvía Línea 1 at Plaza Weyler • 2 min walk",
     mapEmbedUrl:
-      "https://maps.google.com/maps?q=131+N+4th+St,+Brooklyn,+NY+11249&t=&z=16&ie=UTF8&iwloc=&output=embed",
-    directUrl: "https://maps.google.com/?q=131+N+4th+St,+Brooklyn,+NY+11249",
-  },
-  {
-    id: "manhattan",
-    title: "NoMad / Midtown Manhattan",
-    address: "38 W 30th St, New York, NY 10001",
-    transit: "B, D, F, M, N, Q, R, W at 34th St • 4 min walk",
-    mapEmbedUrl:
-      "https://maps.google.com/maps?q=38+W+30th+St,+New+York,+NY+10001&t=&z=16&ie=UTF8&iwloc=&output=embed",
-    directUrl: "https://maps.google.com/?q=38+W+30th+St,+New+York,+NY+10001",
-  },
-  {
-    id: "greenpoint",
-    title: "Greenpoint, Brooklyn",
-    address: "687 Manhattan Ave, Greenpoint, NY 11222",
-    transit: "G Train at Nassau Ave • 2 min walk",
-    mapEmbedUrl:
-      "https://maps.google.com/maps?q=687+Manhattan+Ave,+Greenpoint,+NY+11222&t=&z=16&ie=UTF8&iwloc=&output=embed",
+      "https://maps.google.com/maps?q=Calle+del+Castillo+42,+38003+Santa+Cruz+de+Tenerife&t=&z=16&ie=UTF8&iwloc=&output=embed",
     directUrl:
-      "https://maps.google.com/?q=687+Manhattan+Ave,+Greenpoint,+NY+11222",
+      "https://maps.google.com/?q=Calle+del+Castillo+42,+38003+Santa+Cruz+de+Tenerife",
+  },
+  {
+    id: "la-laguna",
+    tabName: "La Laguna",
+    title: "San Cristóbal de La Laguna",
+    address: "Calle San Agustín 18, 38201 San Cristóbal de La Laguna",
+    transit: "Tranvía Línea 1 at La Trinidad • Casco Histórico",
+    mapEmbedUrl:
+      "https://maps.google.com/maps?q=Calle+San+Agust%C3%ADn+18,+38201+San+Crist%C3%B3bal+de+La+Laguna&t=&z=16&ie=UTF8&iwloc=&output=embed",
+    directUrl:
+      "https://maps.google.com/?q=Calle+San+Agust%C3%ADn+18,+38201+San+Crist%C3%B3bal+de+La+Laguna",
+  },
+  {
+    id: "costa-adeje",
+    tabName: "Costa Adeje",
+    title: "Costa Adeje, South Tenerife",
+    address: "Paseo Marítimo El Duque 7, 38660 Costa Adeje, Tenerife",
+    transit: "Playa del Duque Promenade • Titsa Bus 467 & 473",
+    mapEmbedUrl:
+      "https://maps.google.com/maps?q=Paseo+Maritimo+El+Duque+7,+38660+Costa+Adeje,+Tenerife&t=&z=16&ie=UTF8&iwloc=&output=embed",
+    directUrl:
+      "https://maps.google.com/?q=Paseo+Maritimo+El+Duque+7,+38660+Costa+Adeje,+Tenerife",
   },
 ];
 
@@ -63,7 +68,7 @@ export default function ContactMap() {
                     : "bg-[#181411] border border-[#2d251e] text-[#a3998c] hover:border-[#CFA670] hover:text-[#CFA670]"
                 }`}
               >
-                {loc.title.split(",")[0]}
+                {loc.tabName}
               </button>
             ))}
           </div>
