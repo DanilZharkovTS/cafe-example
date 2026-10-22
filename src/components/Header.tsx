@@ -134,24 +134,24 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-8 text-sm font-medium tracking-wider uppercase text-[#d6cfc5] font-lato">
             <Link
               href="/"
-              className="text-[#CFA670] hover:text-[#e4be88] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#CFA670]"
+              className="hover:text-[#CFA670] transition-colors py-1"
             >
               Home
             </Link>
             <Link
-              href="#menu"
-              className="hover:text-[#CFA670] transition-colors py-1"
+              href="/menu"
+              className="text-[#CFA670] hover:text-[#e4be88] transition-colors py-1"
             >
               Menu
             </Link>
             <Link
-              href="#gift-cards"
+              href="/#gift-cards"
               className="hover:text-[#CFA670] transition-colors py-1"
             >
               Gift Card
             </Link>
             <Link
-              href="#contact"
+              href="/#contact"
               className="hover:text-[#CFA670] transition-colors py-1"
             >
               Contact Us
@@ -161,7 +161,7 @@ export default function Header() {
           {/* Action Button & Mobile Toggle */}
           <div className="flex items-center gap-4">
             <Link
-              href="#private-events"
+              href="/#private-events"
               className="hidden sm:inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-[#CFA670] text-xs font-bold uppercase tracking-widest text-[#CFA670] hover:bg-[#CFA670] hover:text-[#12100e] transition-all duration-300 font-lato shadow-sm"
             >
               Private Event
@@ -193,33 +193,33 @@ export default function Header() {
             <Link
               href="/"
               onClick={() => setMobileMenuOpen(false)}
-              className="text-[#CFA670] font-semibold text-sm tracking-widest uppercase py-1"
+              className="text-[#d6cfc5] hover:text-[#CFA670] font-semibold text-sm tracking-widest uppercase py-1"
             >
               Home
             </Link>
             <Link
-              href="#menu"
+              href="/menu"
               onClick={() => setMobileMenuOpen(false)}
-              className="text-[#d6cfc5] hover:text-[#CFA670] text-sm tracking-widest uppercase py-1"
+              className="text-[#CFA670] hover:text-[#e4be88] font-semibold text-sm tracking-widest uppercase py-1"
             >
               Menu
             </Link>
             <Link
-              href="#gift-cards"
+              href="/#gift-cards"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#d6cfc5] hover:text-[#CFA670] text-sm tracking-widest uppercase py-1"
             >
               Gift Card
             </Link>
             <Link
-              href="#contact"
+              href="/#contact"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#d6cfc5] hover:text-[#CFA670] text-sm tracking-widest uppercase py-1"
             >
               Contact Us
             </Link>
             <Link
-              href="#private-events"
+              href="/#private-events"
               onClick={() => setMobileMenuOpen(false)}
               className="inline-block mt-2 mx-auto px-6 py-2.5 rounded-full border border-[#CFA670] text-xs font-bold uppercase tracking-widest text-[#CFA670] hover:bg-[#CFA670] hover:text-[#12100e] transition-colors"
             >
